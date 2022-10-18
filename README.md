@@ -4,6 +4,8 @@ A Wordpress theme that works on legacy internet browsers like Netscape 3.0 and I
 
 Netscape 3.0 and Internet Explorer 1.5 can render pages using [HTML 3.2](https://www.w3.org/TR/2018/SPSD-html32-20180315/).
 
+![Theme screenshot](https://user-images.githubusercontent.com/17026744/196312215-b69ba7fb-e98f-4a92-8f71-4dbd5d3bfe75.png)
+
 Theme features:
 
 - Uses only basic HTML 3.2 specifications.
