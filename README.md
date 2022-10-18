@@ -16,7 +16,7 @@ Netscape 3.0 and Internet Explorer 1.5 can render pages using [HTML 3.2](https:/
 
 - Thumbnails and intermediate image sizes of PNG files are automatically generated in JPG, because PNG isn't supported by old browsers.
 
-- Index page lists posts with Featured image thumbnails.
+- Index page lists posts with Featured image thumbnails if available.
 
 - Single and Page templates with Featured image.
 
@@ -26,12 +26,14 @@ Netscape 3.0 and Internet Explorer 1.5 can render pages using [HTML 3.2](https:/
 
 - "pot" file included, so it'll be easy to translate the theme.
 
+- Responsive design (Yeah... It works from Windows 3.11 up to the latest iPhone).
+
 If you are into Retro computing and want to make a website that can be viewed on such old browsers, this is the theme for you.
 
 ### Here are some tips
 
 - Do NOT use HTTPS. Netscape doesn't support HTTPS at all. Internet Explorer does support, but only very old implementations of SSL, which are deprecated on any modern web server. Just keep it simple and use regular plain and unsecure HTTP.
 
-- Do not use PNG images. JPG and GIF works fine.
+- Do not use PNG images as Netscape doesn't support this format. JPG and GIF works fine.
 
 - Netscape 3 and IE1.5 supports Javascript, but their implementations are very different and simple programs can behave a lot different between both browsers. CSS is even worse.
