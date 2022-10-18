@@ -1,7 +1,7 @@
 <H2><?php _e('Search'); ?></H2>
-<form id="searchform" method="get" action="<?php bloginfo('home'); ?>">
-		<input type="text" name="s" id="s" size="15" /><br />
-		<input type="submit" value="<?php _e('Search'); ?>" />
+<form id="searchform" method="get" action="<?php bloginfo('home'); ?>/">
+<input type="text" name="s" id="s" size="15" /><br />
+<input type="submit" value="<?php _e('Search'); ?>" />
 </form>
 
 <H2><?php _e('Categories'); ?></H2>
