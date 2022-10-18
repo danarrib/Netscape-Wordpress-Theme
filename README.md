@@ -6,7 +6,7 @@ Netscape 3.0 and Internet Explorer 1.5 can render pages using [HTML 3.2](https:/
 
 ![Theme screenshot](https://user-images.githubusercontent.com/17026744/196312215-b69ba7fb-e98f-4a92-8f71-4dbd5d3bfe75.png)
 
-Theme features:
+### Theme features
 
 - Uses only basic HTML 3.2 specifications.
 
@@ -24,11 +24,11 @@ Theme features:
 
 - RSS Feeds are disabled (because, you know... New tech stuff).
 
-- pot file included, so it'll be easy to translate the theme.
+- "pot" file included, so it'll be easy to translate the theme.
 
-If you are into Retrocomputing and want to make a website that can be viewed on such old browsers, this is the theme for you.
+If you are into Retro computing and want to make a website that can be viewed on such old browsers, this is the theme for you.
 
-Here are some tips:
+### Here are some tips
 
 - Do NOT use HTTPS. Netscape doesn't support HTTPS at all. Internet Explorer does support, but only very old implementations of SSL, which are deprecated on any modern web server. Just keep it simple and use regular plain and unsecure HTTP.
 
