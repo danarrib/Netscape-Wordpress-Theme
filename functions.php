@@ -18,7 +18,10 @@ function netscape_buffer_stop() {
 
 function netscape_modify_content($content) {
     //modify $content
-    return utf8_decode($content . '<!-- Netscape Theme converted contents to ISO-8859-1 -->');
+    $modifiedcontent = $content;
+    $modifiedcontent = str_replace('<br />', '<br></br>', $modifiedcontent);
+    $modifiedcontent = $modifiedcontent . '<!-- Netscape Theme converted contents to ISO-8859-1 -->';
+    return utf8_decode($modifiedcontent);
 }
 
 load_theme_textdomain('netscape');
@@ -120,5 +123,11 @@ function netscape_remove_block_library_css(){
   wp_dequeue_style( 'global-styles' );
 } 
 add_action( 'wp_enqueue_scripts', 'netscape_remove_block_library_css' );
+
+function remove_more_link_scroll( $link ) {
+  $link = preg_replace( '|#more-[0-9]+|', '', $link );
+  return $link;
+}
+add_filter( 'the_content_more_link', 'remove_more_link_scroll' );
 
 ?>
